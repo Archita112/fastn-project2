@@ -1,40 +1,98 @@
--- ds.page: Welcome to doc-site
+;;-- import: portfolio/assets
 
+-- ftd.text: Hello Everyone,
+color: $inherited.colors.text
+margin-vertical.px: 10
+text-align: center
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.text: I am Archita Sugandh.
+;; #dtype: ftd.text
+text-align: center
+style: bold, italic
+margin-vertical.px: 10
+text-indent.px: 45
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.text.color :
+text-align: center
+light: red
+dark: blue
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ftd.row:
+margin-horizontal.px: 10
+margin-vertical.px: 10
+spacing.fixed.px: 5
 
--- ds.h3: 🚀 Fast Track 
+-- ftd.text: I am a from RCOEM.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 40
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- ftd.text: Enthusiastic web developer.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 50
 
--- ds.h3: 🌟 Whats next?
+-- ftd.text: I like reading books.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 30
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- end: ftd.row
 
--- ds.h3: 👀 Want to learn more?
+-- ftd.column:
+spacing.fixed.px: 20
+margin-horizontal.px: 10
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: I am a member of technical club of my college.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 60
 
+-- ftd.text: I am also a member of Robotics and Aviation club of my college.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 60
 
--- ds.h3: 🎯 Used by?
+-- ftd.text: My branch is AIML.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 60
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.text: I am currently learning javascript.
+display: block
+border-color: $inherited.colors.text
+border-width.px: 2
+padding.px: 5
+border-radius.px: 3
+width.fixed.percent: 60
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- end: ftd.column
 
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- ftd.image:
+src: $assets.files.images.profile.jpg
+alt: Image can't be displayed 
+color: $inherited.colors.text
+padding.px: 10
+width.fixed.px: 300
+border-radius.px: 25
+height.fixed.px: 400
+;;margin-horizontal.px: 700
+;;margin-vertical.px: 10
